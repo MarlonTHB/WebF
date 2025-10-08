@@ -12,9 +12,8 @@ import TheWelcome from './components/TheWelcome.vue'
       <HelloWorld msg="Hell Yeah!" />
     </div>
   </header>
-  <div v-confetti="{ particleCount: 500, force: 0.3, duration: 3000 }" />
-
   <main>
+    <div v-confetti="{ particleCount: 2000, force: 0.3, duration: 3000 }" />
     <TheWelcome />
   </main>
 </template>
