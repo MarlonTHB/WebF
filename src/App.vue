@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import { vConfetti } from '@neoconfetti/vue';
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -11,6 +12,7 @@ import TheWelcome from './components/TheWelcome.vue'
       <HelloWorld msg="Hell Yeah!" />
     </div>
   </header>
+  <div v-confetti="{ particleCount: 500, force: 0.3, duration: 3000 }" />
 
   <main>
     <TheWelcome />
