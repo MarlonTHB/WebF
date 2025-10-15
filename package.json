@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@neoconfetti/vue": "^2.2.1",
     "vue": "^3.5.22"
   },
   "devDependencies": {
